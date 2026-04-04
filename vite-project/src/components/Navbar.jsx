@@ -48,6 +48,7 @@ const Navbar = () => {
             <Link to="/about" className="text-gray-300 hover:text-accent transition-colors">About</Link>
             <Link to="/properties" className="text-gray-300 hover:text-accent transition-colors">Properties</Link>
             <Link to="/dashboard" className="text-gray-300 hover:text-accent transition-colors">Dashboard</Link>
+            
 
             {user && (
               <div className="relative ml-2" ref={dropdownRef}>
